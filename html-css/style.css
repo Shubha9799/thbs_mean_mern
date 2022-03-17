@@ -1,3 +1,7 @@
 /*
 this is global css file
 */
+body{
+    border:2px solid yellow;
+    text-decoration: underline;
+}
