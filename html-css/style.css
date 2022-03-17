@@ -2,6 +2,18 @@
 this is global css file
 */
 body{
-    border:2px solid yellow;
-    text-decoration: underline;
+    border:1px solid yellow;
+    
+}
+
+#about-us{
+text-decoration-color: blueviolet;
+}
+.p2{
+    background-color: aquamarine;
+    font-size: 20px;
+}
+.p1{
+    background-color: yellowgreen;
+    border: dashed;
 }
