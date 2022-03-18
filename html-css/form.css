@@ -1,11 +1,15 @@
 body{
+    position:absolute;
+    
     border:3px solid yellow;
 }
 button{
     border-color: green;
 }
 .form_ex{
-    border-color:grey;
-    border:3px;
-    padding:25px;
+    border-left-color:red;
+    
+    border:2px;
+    
+    padding:10px;
 }
