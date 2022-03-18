@@ -3,7 +3,7 @@
 
 <head>
     <title>CSS properties</title>
-    <link rel="stylesheet" href="./form.css">
+    
     <style>
         
         .color,
@@ -21,16 +21,27 @@
         a:hover{
             border:1px solid red;
         }
-        p::first-line
+        /*p::first-line
         {
             font-weight: bolder;
             color:black;
-            background-color:aquamarine;
+            background-color:gray;
             
-        }
+        }*/
 
         .color > span{
             color:orangered;
+        }
+
+        .box p{
+            background-color: olivedrab;
+        }
+
+        h1 + p {
+            font-weight: bold;
+            background-color: rgb(250, 141, 141);
+            color: #fff;
+            padding: .5em;
         }
 
         
@@ -39,6 +50,7 @@
 </head>
 
 <body id="body_color">
+    
     
     <h1>CSS Selectors</h1>
     <a href="ss"><b>CSS link</b></a>
@@ -50,6 +62,23 @@
 
     <p class="note">CSS selectors are used to <br>select the content you want to style. Selectors are the part of CSS rule set. CSS
         selectors select HTML elements according to its id, class, type, attribute etc</p>
+
+        <div class="box">
+            <p>Text in .box1</p>
+            <p>Text in box .box2</p>
+
+
+        </div>
+        <p>Text not in box</p>
+        <br>
+
+        <article>
+            <h1>Adjacent sibling</h1>
+            <p>Happy holi!!</p>
+        </article>
+
+        <P>Do not waste water</P>
+
 </body>
 
 </html>
