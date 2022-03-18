@@ -1,6 +1,11 @@
 body{
-    border:3px solid grey;
+    border:3px solid yellow;
 }
 button{
     border-color: green;
+}
+.form_ex{
+    border-color:grey;
+    border:3px;
+    padding:25px;
 }
