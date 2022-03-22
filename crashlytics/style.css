@@ -22,7 +22,13 @@ body {
     min-height: 100px;
 }
 .next-row {
-    padding: 20px;
+    padding: 5px;
+    
+}
+.thb-text{
+    width: 200px;
+     float: left;
+     font-size: 14px;
 }
 
 .thbs-row {
@@ -42,6 +48,13 @@ body {
 .thbs-graphics {
     float: right;
     
+}
+.thbs-graph{
+    float:right;
+}
+.t-img{
+    width:500px;
+    height: 200px;
 }
 
 .t-image {
@@ -68,4 +81,8 @@ body {
     padding: 40px;
     border-radius: 10px;
     min-height: 400px;
+}
+button{
+    border-radius: 10px;
+    position:absolute;
 }
