@@ -1,0 +1,344 @@
+/* footer */
+
+/* .main_footer {
+    clear: both;
+} */
+
+/* .last_footer .p-2 {
+    padding: 0.4rem;
+} */
+
+.last_footer .container_footer {
+    max-width: 1250px;
+}
+.last_footer .container_footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: 100%;
+}
+
+.last_footer .p-2 {
+    padding: 0.4rem;
+}
+
+.bg-dark {
+    background: #454d5d;
+    color: #fff;
+}
+footer {
+    width: 100%;
+    font-size: .83em;
+}
+
+/* .last_footer .m-2 {
+    margin: 0.4rem;
+} */
+
+/* .last_footer .btn.footer_link {
+    background: 0;
+} */
+.last_footer .btn.footer_link {
+    background: 0 0;
+    border-color: transparent;
+    color: #5755d9;
+}
+.last_footer .btn {
+    border: 1px solid #e5e5e5;
+    color: #393f41;
+    border-radius: 0;
+    height: auto;
+}
+.last_footer .btn {
+    background: #fff;
+    border: 0.05rem solid #5755d9;
+    border-radius: 0.1rem;
+    color: #5755d9;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8rem;
+    height: 1.8rem;
+    line-height: 1rem;
+    outline: 0;
+    padding: 0.35rem 0.4rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.last_footer a {
+    color: #5755d9;
+    outline: 0;
+    text-decoration: none;
+}
+footer a {
+    color: #ffffff !important;
+}
+
+/* .last_footer .m-2 {
+    margin: 0.4rem;
+} */
+
+
+
+.last_footer .column {
+    max-width: 100%;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .is-wrapper > div.is-section-20 {
+    height: 20%;
+} */
+.is-bg-dark, .is-wrapper > div.is-bg-dark {
+    background-color: #111;
+}
+/* .is-wrapper>.is-section {
+    display: table !important;
+    overflow: hidden;
+} */
+.is-wrapper > div {
+    display: table;
+    width: 100%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background: #fff;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    /* z-index: 1; */
+    overflow-x: hidden;
+}
+
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+.is-boxes {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    min-height: 200px;
+    float: left;
+}
+
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+.is-box-centered {
+    display: table-cell;
+    width: 100%;
+    position: relative;
+    vertical-align: middle;
+}
+
+.is-wrapper .is-box .is-container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/* .is-wrapper .is-light-text * {
+    color: #fff;
+} */
+/* .is-wrapper .container {
+    margin: initial auto;
+    max-width: 980px;
+} */
+.is-content-800 {
+    max-width: 800px !important;
+}
+.is-container {
+    z-index: 1;
+}
+.is-container {
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 30px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+}
+
+/* .is-wrapper .is-light-text * {
+    color: #fff;
+}
+.is-wrapper .column.full {
+    width: 100%;
+}
+.is-wrapper .is-light-text * {
+    color: #fff;
+} */
+
+.is-wrapper .column {
+    float: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* .is-wrapper .is-light-text * {
+    color: #fff;
+}
+.is-wrapper p {
+    margin: 1rem 0;
+}
+.is-wrapper p, .is-wrapper td, .is-wrapper li, .is-wrapper label {
+    font-size: 1.07rem;
+    line-height: 2;
+    font-weight: 300;
+}
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+.is-wrapper h3 {
+    font-size: 1.73rem;
+    margin: 0.7rem 0;
+} */
+
+/* .is-wrapper .is-light-text * {
+    color: #fff;
+}
+.spectre form {
+    border-radius: 0;
+}
+.spectre form {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 0.3rem;
+}
+.bg-transparent {
+    background-color: transparent !important;
+}
+.spectre .form-group:not(:last-child) {
+    margin-bottom: 0.4rem;
+} */
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+
+.is-wrapper .spectre label {
+    line-height: 1rem !important;
+    font-size: inherit;
+}
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+
+
+.is-wrapper .spContactForm input, .is-wrapper .spContactForm textarea {
+    color: #000;
+}
+.is-wrapper .is-light-text * {
+    color: #fff;
+}
+.form-input {
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+}
+.form-input, .form-select {
+    border: 0.05rem solid #e5e5e5;
+    color: #50596c;
+}
+.form-input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    background-image: none;
+    border: 0.05rem solid #caced7;
+    border-radius: 0.1rem;
+    color: #50596c;
+    display: block;
+    font-size: .8rem;
+    height: 1.8rem;
+    line-height: 1rem;
+    max-width: 100%;
+    outline: 0;
+    padding: 0.35rem 0.4rem;
+    position: relative;
+    transition: all .2s ease;
+    width: 100%;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+/* ............... */
+.column_third{
+    padding-top: 50;
+}
+
+/* footer 2 */
+
+.footers .container_footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    width: 100%;
+    max-width: 1250px;
+}
+
+.footers .p-2 {
+    padding: 0.4rem;
+}
+
+.footers .footer_link {
+    cursor: pointer;
+    display: inline-block;
+    font-size: .8rem;
+    height: 1.8rem;
+    line-height: 1rem;
+    padding: 0.35rem 0.4rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer a {
+    color: #ffffff !important;
+}

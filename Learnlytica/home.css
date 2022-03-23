@@ -1,0 +1,129 @@
+.head-container{
+  padding: 10px;
+  background-color: #fff;
+}
+.options{
+   text-decoration: none;
+   padding: 10px;
+   display: inline;
+   padding-right: 10px;
+   word-spacing: 125px;
+   float:right ;
+   
+}
+.main-container{
+   background-image: url("https://primary.spayee.com/s/pages/assets/images/eBfdmbacnkgrnd3.jpg");
+   height: 1000px;
+   
+}
+.row1{
+   
+   padding: 102px;
+}
+.text{
+   color: #fff;
+   display: inline;
+}
+.column-half{
+   width: 100px;
+   
+   font-family: Montserrat, sans-serif;
+}
+.img{
+width: 650px;
+float: right;
+
+   margin-top: -288px
+}
+.l2{
+       font-size: xx-large;
+       color: #ffffff;
+       
+}
+.l3{
+   font-size: xx-large;
+   color: #ffffff;
+   text-align: center;
+   margin-top: -86px
+}
+.l4{
+   margin-right: 30px;
+   font-size: xx-large;
+   color: #ffffff;
+   text-align: right;
+   margin-top: -86px
+   
+}
+.l5{
+   text-align: center;
+}
+
+
+/* footer 2 */
+
+.footers .container_footer {
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 0.4rem;
+   padding-right: 0.4rem;
+   width: 100%;
+   max-width: 1250px;
+}
+
+.footers .p-2 {
+   padding: 0.4rem;
+}
+
+.footers .footer_link {
+   cursor: pointer;
+   display: inline-block;
+   font-size: .8rem;
+   height: 1.8rem;
+   line-height: 1rem;
+   padding: 0.35rem 0.4rem;
+   text-align: center;
+   text-decoration: none;
+}
+
+footer a {
+   color: #ffffff !important;
+}
+
+/* contact us page */
+.spectre form {
+   padding: 1rem;
+   
+   border-radius: 0.3rem;
+}
+
+
+.form-label {
+   font-family: Montserrat, sans-serif;
+   font-weight: 600!important;
+   letter-spacing: 1px;
+   display: block;
+   line-height: 1rem;
+   padding: 0.4rem 0;
+}
+
+.form-input {
+   height: 40px;
+   padding-left: 10px;
+   border-radius: 5px;
+   margin-bottom: 20px;
+   font-family: Montserrat, sans-serif;
+   font-size: 14px;
+   background: #fff;
+   background-image: none;
+   border: 0.05rem solid #caced7;
+   border-radius: 0.1rem;
+   color: #50596c;
+   display: block;
+   font-size: .8rem;
+   height: 1.8rem;
+   line-height: 1rem;
+   max-width: 100%;
+   padding: 0.35rem 0.4rem;
+   position: relative;
+   width: 100%;
+}
