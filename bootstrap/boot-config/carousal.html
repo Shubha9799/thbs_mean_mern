@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+</head>
+</head>
+<body>
+    <h2 style="text-align:center; background-color:aquamarine;">Adding the sliders</h2>
+    <div class="container">
+        <h1>toaster messages</h1>
+        <button class="btn btn-primary" id="showToster"> Show toaster message </button>
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <i class="bi-alarm"></i>
+                <strong class="me-auto">Please take action</strong>
+                <small>10 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                THBS! This is a toast message.
+            </div>
+        </div>
+    
+        
+    
+              
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT03YGexi8HI7wTvQS554Oxm0Srikqm96Jc7w&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8CJfbF92XauyRn7af4yJDHadGyiu7yFrPHQ&usqp=CAU" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <script>
+        let mybtn = document.getElementById('showToster');
+        let toasterMessage = document.getElementById('liveToast');
+
+        mybtn.addEventListener('click', function () { // anamous function 
+
+            let myTInstance = new bootstrap.Toast(toasterMessage)
+
+            myTInstance.show();
+        });
+
+    </script>
+</body>
+</html>
