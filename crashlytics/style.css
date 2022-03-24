@@ -86,3 +86,11 @@ button{
     border-radius: 10px;
     position:absolute;
 }
+@media(max-height:650px){
+    .t-image{
+        border:10px solid blue;
+    }
+    body{
+        background-color: aqua;
+    }
+}
