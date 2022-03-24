@@ -1,0 +1,23 @@
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .clear {
+    clear: both;
+}
+  .s-border {
+    border-top: 1px solid lightslategray;
+}
+p{
+    text-decoration-color: grey;
+    font-size: 15px;
+}
+
+h3{
+    float: right;
+    text-decoration: black;
+}
