@@ -1,0 +1,110 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms using bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+<body>
+    <h2 style="color: blue; text-align: center;">Forms using bootstrap</h2>
+    <div class="container">
+        <form class="mt-3">
+            <!--layout in forms-->
+            <div class="row g-3">
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+              </div>
+            <br>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <!--Select option for form-->
+            <div class="mb-3">
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select an option</option>
+                <option value="1">Forms</option>
+                <option value="2">Toaster</option>
+                <option value="3">Caurosel</option>
+              </select>
+            </div>
+
+            <!--checkbox in forms-->
+            <div class="form-check mb-3">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  CSS
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Bootstrap
+                </label>
+              </div>
+            <br>
+            <div class="mb-3 form-check">
+                <!--disable option for form-->
+              <input disabled type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <br>
+
+            <!--Input groups-->
+            
+                <div class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                    <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                  </div>
+           
+       
+
+        <!--form switch-->
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+            <label class="form-check-label" for="flexSwitchCheckChecked">Agree to the terms</label>
+          </div>
+          <br>
+
+          <!--floating labels in forms-->
+          <div class="form-floating mb-3">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Comments</label>
+          </div>
+          <br>
+          <!--Range in forms-->
+          <div class="mb-3">
+            <label for="customRange2" class="form-label">Rate your experience</label>
+            <input type="range" class="form-range" min="0" max="5" id="customRange2">
+          </div>
+            <button type="submit"  id="btnSubmit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+
+    <script>
+        let btnSubmit = document.getElementById('btnSubmit');
+
+        let email = document.getElementById("exampleInputEmail1");
+
+        let password = document.getElementById("exampleInputPassword1");
+
+        btnSubmit.addEventListener('click', function (event) {
+            event.preventDefault();
+            console.log(email.value)
+            console.log(password.value);
+        });
+    </script>
+</body>
+</html>
