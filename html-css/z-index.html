@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-index</title>
+    <style>
+        .green-box{
+            border: dashed;
+           z-index: 3;
+            position:absolute;
+            background:blueviolet;
+            width:80%;
+            left:50px;
+            top:30px;
+        }
+        .gold-box{
+            border:10px;
+            background-color: aqua;
+            position: absolute;
+            z-index:2;
+            width:20%;
+            top:25px;
+            right:50px;
+        }
+
+    </style>
+</head>
+<body>
+    <p class="green-box">Green box</p>
+    <p class="gold-box">gold box</p>
+</body>
+</html>
