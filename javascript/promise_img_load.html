@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promise image load</title>
+</head>
+<body>
+    <script>
+         function requestApiCall(url, resolve, reject)
+          {
+    // send api call to get image from XmlHttpRquestObject 
+    let request = new XMLHttpRequest();
+    request.open('GET', url);
+    request.responseType = 'blob';
+
+    // When the request loads, check whether it was successful
+    request.onload = function () {
+
+        if (request.status === 200)
+         {
+            resolve(request.response);
+        } 
+        else {
+
+            reject(Error('Image didn\'t load successfully; error code:' + request.statusText));
+        }
+    };
+
+    request.onerror = function () {
+        // Also deal with the case when the entire request fails to begin with
+        // This is probably a network error, so reject the promise with an appropriate message
+        reject(Error('There was a network error.'));
+    };
+
+    // Send the request
+    request.send();
+};
+
+function imagelink(imageUrl) {
+    console.log(`Sending image to api ${imageUrl}`);
+
+    let ImageLoad = new Promise((resolve, reject) => 
+    {
+        requestApiCall(imageUrl, resolve, reject);
+    });
+
+    return ImageLoad;
+}
+
+function addImage(imageResponse) {
+  let body = document.querySelector('body');
+  let myImg = document.createElement('img');
+
+  let myImgUrl = URL.createObjectURL(imageResponse);
+
+  myImg.src = myImgUrl;
+  myImg.width = 300;
+  myImg.height = 200;
+
+  body.append(myImg);
+}
+
+imagelink('https://avatars.githubusercontent.com/u/2918581?v=4.jpg')
+    .then(
+        (sucess) => {
+            addImage(sucess);
+        },
+        (error) => {
+
+        });
+
+    </script>
+</body>
+</html>
