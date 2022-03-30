@@ -34,12 +34,20 @@ let user = {
     id: 663,
     name: 'Shubhangi',
     age: 23,
-    education: {  //nested
-      degree: 'BE'
+    address: {  //nested
+        current:{
+            city:'Ckd',
+            pincode: 591201,
+            area:'Raviwarpeth'
+        },
+        permanent:{
+            city:'Belgaum',
+            state:'Karnataka'
+        }
     }
   };
-  const {education: {degree}} = user;
-  console.log(degree); //prints: Masters
+  let {address: {current:{area}}} = user;
+  console.log(area); //prints: Masters
 
 
   //promise object
