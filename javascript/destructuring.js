@@ -40,3 +40,17 @@ let user = {
   };
   const {education: {degree}} = user;
   console.log(degree); //prints: Masters
+
+
+  //promise object
+  let obj=new Promise((resolve,reject)=>{
+      resolve ('JS');
+      reject ('JS');
+  });
+  obj.then((resolve)=>{
+      console.log(`Finally learnt promise in ${resolve}`);
+  },
+  (reject)=>{
+      console.log(`did not learn promise in ${reject}`);
+  }
+  )
