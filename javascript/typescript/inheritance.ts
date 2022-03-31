@@ -15,19 +15,21 @@ class personinfo{
 
 class student extends personinfo{
     course;
-    constructor(fname,lname,course){
+    location;
+    constructor(fname,lname,course,location){
         super(fname,lname);
         this.course=course;
+        this.location=location;
 
     }
     who(){
         return `${super.who()} and I'm studying ${this.course}`;
     }
     coursedetails(){
-        return `${this.course} Computer science`;
+        return `In the stream of Computer science at ${this.location}`;
     }
     }
 
-let data1=new student('Arya','K','Engineering');
-console.log(data1.who());   //hi i am Arya k and I'm studing Engineering
-console.log(data1.coursedetails());  //Engineering computer science
+let data1=new student('Arya','K','Engineering','Bangalore');
+console.log(data1.who());   
+console.log(data1.coursedetails());  
