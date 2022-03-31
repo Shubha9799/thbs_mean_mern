@@ -23,10 +23,10 @@ class student extends personinfo{
 
     }
     who(){
-        return `${super.who()} and I'm studying ${this.course}`;
+        return `${super.who()} and I'm studying ${this.course}`;  //from parent class and course is from child class
     }
     coursedetails(){
-        return `In the stream of Computer science at ${this.location}`;
+        return `In the stream of Computer science at ${this.location}`; //child class
     }
     }
 
